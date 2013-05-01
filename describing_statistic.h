@@ -7,8 +7,7 @@
 #include <QMap>
 #include <QFile>
 #include <QTextStream>
-#include <QTextCodec>
-#include <QTranslator>
+
 
 class describing_statistic
 {

@@ -7,12 +7,6 @@ void describing_statistic::save(QString fname){
     QFile file(fname);
     file.open(QIODevice::WriteOnly | QIODevice::Text);
     QTextStream out(&file);
-    out.setCodec("UTF8");
-    QTextCodec *codec = QTextCodec::codecForName("UTF8");
-    QTextCodec::setCodecForTr(codec);
-    QTextCodec::setCodecForCStrings(codec);
-    QTextCodec::setCodecForLocale(codec);
-
     out << "Count " << count()    << "\n"
         << "Sum " << sum() << "\n"
         << "Max " << max()      << "\n"

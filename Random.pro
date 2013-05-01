@@ -14,9 +14,11 @@ TEMPLATE = app
 
 SOURCES += main.cpp\
         mainwindow.cpp \
-    describing_statistic.cpp
+    describing_statistic.cpp \
+    statistical_criteria.cpp
 
 HEADERS  += mainwindow.h \
-    describing_statistic.h
+    describing_statistic.h \
+    statistical_criteria.h
 
 FORMS    += mainwindow.ui
