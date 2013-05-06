@@ -15,10 +15,12 @@ TEMPLATE = app
 SOURCES += main.cpp\
         mainwindow.cpp \
     describing_statistic.cpp \
-    statistical_criteria.cpp
+    statistical_criteria.cpp \
+    gauss_generator.cpp
 
 HEADERS  += mainwindow.h \
     describing_statistic.h \
-    statistical_criteria.h
+    statistical_criteria.h \
+    gauss_generator.h
 
 FORMS    += mainwindow.ui
